@@ -1,0 +1,56 @@
+{
+  "securities": [
+    {
+      "id": "1",
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "bid": 150,
+      "ask": 152,
+      "currentPrice": 151,
+      "changeValue": -1.5,
+      "changePercentage": -0.99
+    },
+    {
+      "id": "2",
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "bid": 295,
+      "ask": 297,
+      "currentPrice": 296,
+      "changeValue": 2,
+      "changePercentage": 0.68
+    }
+  ],
+  "transactions": [
+    {
+      "id": "3d0b",
+      "ticker": "AAPL",
+      "type": "buy",
+      "quantity": 3,
+      "price": 236.25,
+      "date": "2024-10-21T15:56:10.214Z"
+    },
+    {
+      "id": "234b",
+      "ticker": "MSFT",
+      "type": "buy",
+      "quantity": 2,
+      "price": 415.2,
+      "date": "2024-10-21T15:56:32.878Z"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "a87b",
+      "ticker": "AAPL",
+      "quantity": 3,
+      "costBasis": 708.75
+    },
+    {
+      "id": "bf36",
+      "ticker": "MSFT",
+      "quantity": 2,
+      "costBasis": 830.4
+    }
+  ]
+}
